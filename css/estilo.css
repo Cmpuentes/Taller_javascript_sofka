@@ -1,0 +1,115 @@
+body{
+    background-color: #D8D51B;
+}
+
+div{
+    background-color: #FDFCB3;
+    border: 1px solid #6D6D58;
+    padding: 5%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+fieldset{
+    margin-bottom: 12px;
+}
+legend{
+    background-color: #B4B43A;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 6px 10px 20px #616126;
+    border: 10px solid #85851F;
+}
+
+#id1 a{
+    text-decoration: none;
+    color: black;
+    background-color: #B4B43A;
+    padding: 4px;
+    border-radius: 4px;
+}
+#id1 a:hover{
+    color: #B4B43A;
+    background-color:#E9E9A8;
+}
+
+#id2 a{
+    text-decoration: none;
+    color: black;
+    background-color: #B4B43A;
+    padding: 4px;
+    border-radius: 4px;
+}
+#id2 a:hover{
+    color: #B4B43A;
+    background-color:#E9E9A8;
+}
+
+#idestudios a{
+    text-decoration: none;
+    color: black;
+    background-color: #B4B43A;
+    padding: 4px;
+    border-radius: 4px;
+}
+#idestudios a:hover{
+    color: #B4B43A;
+    background-color:#E9E9A8;
+}
+
+#idexperiencia a{
+    text-decoration: none;
+    color: black;
+    background-color: #B4B43A;
+    padding: 4px;
+    border-radius: 4px;
+}
+#idexperiencia a:hover{
+    color: #B4B43A;
+    background-color:#E9E9A8;
+}
+
+#idpersonales a{
+    text-decoration: none;
+    color: black;
+    background-color: #B4B43A;
+    padding: 4px;
+    border-radius: 4px;
+}
+#idpersonales a:hover{
+    color: #B4B43A;
+    background-color:#E9E9A8;
+}
+#idfamiliares a{
+    text-decoration: none;
+    color: black;
+    background-color: #B4B43A;
+    padding: 4px;
+    border-radius: 4px;
+}
+#idfamiliares a:hover{
+    color: #B4B43A;
+    background-color:#E9E9A8;
+}
+.acordeon{
+    background-color: #B4B43A;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+.active, .acordeon:hover{
+    background-color: #FFFF78;
+}
+.panel{
+    padding: 0px 15px;
+    display: none;
+    background-color: #FFFF84;
+    overflow: hidden;
+}

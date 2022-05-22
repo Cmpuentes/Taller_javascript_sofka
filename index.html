@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body id="body" onload="mostrarColor()">
+    <!--Aqí irá el contenido de mi hoja de vida-->
+    
+    <!--Panel lateral izquierdo de mi hoja de vida-->
+    <select name="fondo" id="fondo" onchange="cambiaFondo(this)">
+        <option value="#70F972">Verde</option>
+        <option value="#70AFF9">Azul</option>
+        <option value="#F97470">Rojo</option>
+    </select>
+    <div>
+        <img src="img/carlos.jpg" alt="carlos puentes" width="170" height="180">
+        <h1>Carlos Mario Puentes Diz</h1>
+        <p>Barrio los Alpes sector el triunfo, carrera 31C, calle 70d-70.</p>
+        <p>Teléfono: 3046136399.</p>
+        <fieldset>
+            <legend>Datos generales</legend>
+            <ul>
+                <li>Lugar de origen: Cartagena de indias, Colombia.</li>
+                <li>Cc: 1047482849.</li>
+                <li>E-mail: cmpuentes95gmail.com.</li>
+            </ul>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Sobre mi</legend>
+            <p>
+                Joven entusiasta y con interés en la industria del desarrollo de software, interesado en formar parte del equipo de sofka como desarrollador.
+                Gracias a mis habilidades como programador, creo que puedo colaborar a que los clientes de la empresa reciban un producto eficiente y resuelvan sus dudas y problemáticas. Conocimientos de soporte técnico de computadores y redes de datos e inalámbricas.
+            </p>
+        </fieldset>
+    </div>
+
+    <div id="id1">
+        <a href="experiencia.html">Experiencia laboral</a>
+        <br><br><a href="refpersonales.html">Referencias personales</a>
+        <br><br><a href="reffamiliares.html">Referencias familiares</a>
+        <br><br><a href="estudios.html">Estudios realizados</a>
+    </div>
+    
+    <div id="id2">
+        <a href="hv/Hoja de Vida Carlos Mario Puentes Diz.pdf" target="_blank">Descargar hoja de vida</a>
+    </div>
+   <script src="js/funciones.js"></script> 
+</body>
+</html>
